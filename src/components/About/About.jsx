@@ -13,17 +13,17 @@ function About() {
         <Row className="align-items-center">
           <Col md={7} className="order-2 order-md-1">
             <div id="title">
-              Hi, I am <br /> Shafa Shabudeen
+              Hola, soy
+              <br /> Leonardo Zamorano
             </div>
             <div id="textLoop">
-              I am a{" "}
+              Yo soy{" "}
               <span>
                 <Typewriter
                   options={{
                     strings: [
-                      "Java Programmer",
-                      "Backend Developer",
                       "Frontend Developer",
+                      "Backend Developer",
                       "Full Stack Developer",
                     ],
                     autoStart: true,
@@ -33,9 +33,18 @@ function About() {
               </span>
             </div>
             <div id="subTitle">
-              I am a motivated and versatile individual, always eager to take on
-              new challenges. With a passion for learning I am dedicated to
-              delivering high-quality results.
+              Yo soy ZetaDev, una persona altamente motivada y
+              adaptable que se enfrenta con entusiasmo a una amplia gama de
+              desafíos. <br />
+              Mi constante deseo de aprender y mi habilidad para trabajar de
+              manera colaborativa me caracterizan.
+              <br />
+              Con una profunda pasión por las tecnologías y el desarrollo web,
+              me destaco por mi creatividad y dedicación. <br />
+              Poseo grandes ideas y una firme compromiso para ofrecer resultados
+              de calidad. <br />
+              Estoy emocionado por contribuir al mundo del desarrollo y seguir
+              creciendo en este apasionante campo.
             </div>
             <div id="SocialMediaIcons">
               <a
@@ -57,7 +66,10 @@ function About() {
               </a>
             </div>
           </Col>
-          <Col md={5} className="d-flex justify-content-md-end order-1 order-md-2 mt-md-0 mt-3">
+          <Col
+            md={5}
+            className="d-flex justify-content-md-end order-1 order-md-2 mt-md-0 mt-3"
+          >
             <div id="heroContainer">
               <img src="./profile.jpg" alt="hero image" id="img" />
             </div>
