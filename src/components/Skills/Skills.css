@@ -23,22 +23,22 @@ margin-bottom: 20px;
     flex-direction: column;
     justify-content: center;
     background-color: transparent;
-    border: 1px solid rgba(127, 101, 231, 0.8);
+    border: 1px solid rgba(231, 101, 101, 0.8);
     border-radius: 10px;
     color: #fff;
-    box-shadow: 0px 0px 10px rgba(127, 101, 231, 0.3); /* Add box-shadow */
+    box-shadow: 0px 0px 10px rgba(231, 101, 101, 0.3); /* Add box-shadow */
   }
   
   .skill-card:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0px 15px rgba(127, 101, 231, 0.5); /* Adjust glow on hover */
+    box-shadow: 0px 0px 15px rgba(231, 101, 101, 0.5); /* Adjust glow on hover */
   }
   
   .skill-image {
     margin-bottom: 10px;
     width: 45px;
     height: 45px;
-    color: rgba(127, 101, 231, 0.8);
+    color: rgba(231, 101, 101, 0.8);
   }
   
   .skill-name {

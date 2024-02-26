@@ -13,7 +13,7 @@
 }
 
 .navbar-brand-custom span {
-  color: rgba(127, 101, 231, 0.8);
+  color: rgba(231, 101, 101, 0.8);
   font-size: 1.5rem;
 }
 
@@ -35,10 +35,10 @@
   
   @keyframes glowingEffect {
     from {
-      text-shadow: 0 0 10px rgba(127, 101, 231, 0.502), 0 0 20px rgba(127, 101, 231, 0.5), 0 0 30px rgba(127, 101, 231, 0.5);
+      text-shadow: 0 0 10px rgba(231, 101, 101, 0.502), 0 0 20px rgba(231, 101, 101, 0.5), 0 0 30px rgba(231, 101, 101, 0.5);
     }
     to {
-      text-shadow: 0 0 10px #7f65e7, 0 0 20px rgba(127, 101, 231, 1), 0 0 30px rgba(127, 101, 231, 1);
+      text-shadow: 0 0 10px #e76565, 0 0 20px rgb(231, 101, 101), 0 0 30px rgb(231, 101, 101);
     }
   }
 
@@ -49,22 +49,22 @@
 
 .navbar-icon:hover{
   font-size: 1.5rem;
-  color: rgba(127, 101, 231, 0.8);
+  color: rgba(231, 101, 101, 0.8);
 }
 
 .navbar-btn.btn-primary {
   background-color: transparent;
-  border: 1px solid rgba(127, 101, 231, 0.8);
-  color: rgba(127, 101, 231, 0.8) !important;
+  border: 1px solid rgba(231, 101, 101, 0.8);
+  color: rgba(255, 255, 255, 0.8) !important;
   border-radius: 10px;
   margin-right: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
-  box-shadow: 0px 0px 10px rgba(127, 101, 231, 0.3);
+  box-shadow: 0px 0px 10px rgba(231, 101, 101, 0.3);
 }
 
 .navbar-btn.btn-primary:hover,
 .navbar-btn.btn-primary.navbar-item-active {
-  background-color: rgba(127, 101, 231, 0.8);
-  box-shadow: 0 0 20px rgba(127, 101, 231, 0.8) !important;
+  background-color: rgba(240, 33, 33, 0.8);
+  box-shadow: 0 0 20px rgba(238, 20, 20, 0.8) !important;
   color: #fff !important;
 }

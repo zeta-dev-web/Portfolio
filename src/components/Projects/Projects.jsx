@@ -76,7 +76,7 @@ function Projects() {
     <div className="projects">
       <Container id="projects">
         <div id="Wrapper">
-          <h1 id="Title">Projects</h1>
+          <h1 id="Title">Projectos</h1>
           <div id="ToogleButtonGroup">
             {toggle === "all" ? (
               <Button
