@@ -19,10 +19,10 @@ const skillsData = [
 
 function Skills() {
   return (
-    <Container>
+    <Container className="d-flex">
       <div id="skills">
         <h1 id="subtitle">Skills</h1>
-        <Row xs={1} md={3} lg={4} className="g-4">
+        <Row xs={1} md={3} lg={4} className="g-4 d-flex ms-4">
           {skillsData.map((skill, index) => (
             <Col key={index}>
               <Card className="skill-card">

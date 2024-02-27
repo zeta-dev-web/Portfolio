@@ -46,7 +46,7 @@ function About() {
               Estoy emocionado por contribuir al mundo del desarrollo y seguir
               creciendo en este apasionante campo.
             </div>
-            <div id="SocialMediaIcons">
+            <div id="SocialMediaIcons" className="mb-5">
               <a
                 id="SocialMediaIcon"
                 href="https://www.linkedin.com/in/shafa-shabudeen/"
