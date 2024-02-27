@@ -13,11 +13,11 @@ function About() {
         <Row className="align-items-center">
           <Col md={7} className="order-2 order-md-1">
             <div id="title">
-              Hola, soy
+              Hola, Soy
               <br /> Leonardo Zamorano
             </div>
             <div id="textLoop">
-              Yo soy{" "}
+              Y soy{" "}
               <span>
                 <Typewriter
                   options={{
@@ -33,8 +33,8 @@ function About() {
               </span>
             </div>
             <div id="subTitle">
-              Yo soy ZetaDev, una persona altamente motivada y
-              adaptable que se enfrenta con entusiasmo a una amplia gama de
+              Tambien se me conoce como ZetaDev, soy una persona altamente motivada y
+              adaptable que se enfrenta con entusiasmo a cualquier de
               desafíos. <br />
               Mi constante deseo de aprender y mi habilidad para trabajar de
               manera colaborativa me caracterizan.
