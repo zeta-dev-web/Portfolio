@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div id="FooterContainer">
       <div id="FooterWrapper">
-        <h1 id="Logo">Shafa Shabudeen</h1>
+        <h1 id="Logo">Leonardo Zamorano</h1>
         <div id="SocialMediaIcons">
           <a
             id="SocialMediaIcon"
@@ -29,7 +29,7 @@ function Footer() {
           </a>
         </div>
         <div id="Copyright">
-          &copy; 2024 Shafa Shabudeen. All rights reserved.
+          &copy; 2024 Zeta Dev. All rights reserved.
         </div>
       </div>
     </div>
