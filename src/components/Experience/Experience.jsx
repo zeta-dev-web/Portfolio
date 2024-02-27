@@ -63,7 +63,7 @@ function Experience() {
   return (
     <Container id="experience">
       <h1 id="subtitle">Experience</h1>
-      <Stack gap={3} id="stack">
+      <Stack gap={3} id="stack" className="ms-0">
         {experiences.map((experience, index) => (
           <Row key={index}>
             <Col xs={2} id="timeline">
