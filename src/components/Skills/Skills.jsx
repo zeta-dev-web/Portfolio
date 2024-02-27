@@ -22,9 +22,9 @@ function Skills() {
     <Container className="d-flex">
       <div id="skills">
         <h1 id="subtitle">Skills</h1>
-        <Row xs={1} md={3} lg={4} className="g-4 d-flex ms-4">
+        <Row xs={1} md={3} lg={4} className="g-4">
           {skillsData.map((skill, index) => (
-            <Col key={index}>
+            <Col key={index} className="d-flex justify-content-center">
               <Card className="skill-card">
                 <Card.Body>
                   <img src={skill.image} alt={skill.name} className="skill-image" />
