@@ -5,6 +5,8 @@ import Typewriter from "typewriter-effect";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import 'animate.css';
+import 'animate.css/animate.css';
 
 function About() {
   return (
@@ -32,7 +34,7 @@ function About() {
                 />
               </span>
             </div>
-            <div id="subTitle">
+            <div id="subTitle" className="animate__backInLeft">
               Tambien se me conoce como ZetaDev, soy una persona altamente motivada y
               adaptable que se enfrenta con entusiasmo a cualquier de
               desafíos. <br />

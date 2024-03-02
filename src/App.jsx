@@ -11,6 +11,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 // import Certifications from "./components/Certifications/Certifications";
 import ControlledExample from "./components/Certifications/Certifications";
+import 'animate.css';
 
 
 function App(){
@@ -18,7 +19,7 @@ function App(){
   return(
     <div className="app">
     <Header />
-    <About />
+    <div className="animate__rubberBand"><About/></div>
     <Skills />
     <Experience />
     <Projects />
